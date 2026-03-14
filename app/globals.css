@@ -1,56 +1,42 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&display=swap');
-@import 'tailwindcss';
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import "tailwindcss";
 
 :root {
-  --background: #ffffff;
+  --background: #feede6;
   --foreground: #171717;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-vns-primary: #fe5009;
+  --color-vns-secondary: #fe6121;
+  --color-vns-accent: #fe723a;
+  --color-vns-bg: #feede6;
+  --font-pacifico: "Pacifico", cursive;
+  --font-sans: "PT Sans", sans-serif;
+  --animate-underline: underline 0.3s ease forwards;
 }
 
-@media (prefers-color-scheme: light) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
-    --foreground: #ededed;
+    --foreground: #feede6;
   }
-}
+} */
 
 body {
   background: var(--background);
   color: var(--foreground);
+  font: var(--font-sans);
 }
 
-.pacifico-regular {
-  font-family: 'Pacifico', cursive;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.pt-sans-regular {
-  font-family: 'PT Sans', sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.pt-sans-bold {
-  font-family: 'PT Sans', sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.pt-sans-regular-italic {
-  font-family: 'PT Sans', sans-serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.pt-sans-bold-italic {
-  font-family: 'PT Sans', sans-serif;
-  font-weight: 700;
-  font-style: italic;
+@keyframes underline {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
 }

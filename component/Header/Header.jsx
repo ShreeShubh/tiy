@@ -1,32 +1,28 @@
-import Image from 'next/image'
-import React from 'react'
+import Image from "next/image"
+import React from "react"
+import Button from "../Button/Button"
+import { navMenu } from "@/lib/navMenu"
+import Link from "next/link"
 
 const Header = () => {
   return (
-    <nav>
-      <div className="flex items-center justify-between py-5 px-4 max-w-7xl mx-auto">
-        <div className="flex flex-col items-center gap-2">
-          <Image
-            src="/short-logo01.png"
-            alt="TIY Logo"
-            width={75}
-            height={50}
-          />
-          <p className="text-[#fe5009]">Travel It Yourself</p>
-        </div>
+    <nav className="fixed top-0 left-0 right-0 max-w-6xl mx-auto mt-6 flex items-center justify-between px-6 py-3 bg-vns-primary rounded-full shadow">
+      <Link href="/" className="font-semibold font-pacifico text-xl text-white">
+        tiY
+      </Link>
 
-        <ul className="flex space-x-6">
-          <li>
-            <a href="/">Home</a>
+      <ul className="flex gap-6 text-vns-bg text-lg font-medium">
+        {navMenu.map((item) => (
+          <li key={item} className="relative cursor-pointer group">
+            {item}
+            <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-vns-bg group-hover:animate-underline"></span>
           </li>
-          <li>
-            <a href="/about">About</a>
-          </li>
-          <li>
-            <a href="/contact">Contact</a>
-          </li>
-        </ul>
-      </div>
+        ))}
+      </ul>
+
+      <Button isPrimary={false} className="rounded-full!">
+        Get Started
+      </Button>
     </nav>
   )
 }
