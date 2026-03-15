@@ -6,7 +6,7 @@ import Link from "next/link"
 
 const Header = () => {
   return (
-    <nav className="fixed top-0 left-0 right-0 max-w-6xl mx-auto mt-6 flex items-center justify-between px-6 py-3 bg-vns-primary rounded-full shadow">
+    <nav className="z-50 fixed top-0 left-0 right-0 max-w-6xl mx-auto mt-6 flex items-center justify-between px-6 py-3 bg-vns-primary rounded-full shadow">
       <Link href="/" className="font-semibold font-pacifico text-xl text-white">
         tiY
       </Link>

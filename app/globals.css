@@ -3,7 +3,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #feede6;
+  /* --background: #feede6; */
+  --background: #fff;
   --foreground: #171717;
 }
 
