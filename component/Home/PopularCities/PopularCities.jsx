@@ -57,7 +57,7 @@ const PopularCities = () => {
 
           <Button className="mt-8">View All Cities</Button>
         </div>
-        <div className="absolute bottom-0 right-0 w-[37%]">
+        <div className="absolute bottom-10 right-0 w-[37%]">
           <div className="relative bottom-0 h-105">
             {/* Image 1 */}
             <div className="absolute top-0 left-10 -rotate-6 shadow-xl rounded-xl overflow-hidden">

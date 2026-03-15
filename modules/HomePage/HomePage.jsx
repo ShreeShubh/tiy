@@ -14,7 +14,7 @@ const HomePage = () => {
       <TrustStrip />
       <ExploreIndia />
       <PopularCities />
-      <div className="min-h-screen flex flex-col items-center justify-center gap-5">
+      {/* <div className="min-h-screen flex flex-col items-center justify-center gap-5">
         <h1 className="text-7xl text-vns-primary font-sans">
           Whereas recognition
         </h1>
@@ -22,7 +22,7 @@ const HomePage = () => {
           <Button children="Primary Button" />
           <Button isPrimary={false} children="Secondary Button" />
         </div>
-      </div>
+      </div> */}
     </>
   )
 }
