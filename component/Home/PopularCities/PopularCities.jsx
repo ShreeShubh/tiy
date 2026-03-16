@@ -1,7 +1,7 @@
 import React from "react"
 
 import Image from "next/image"
-import { CheckCircle, Globe, Wallet } from "lucide-react"
+import { BsCheck2Circle, BsGlobe2, BsWallet2 } from "react-icons/bs"
 import Button from "../../Button/Button"
 
 const PopularCities = () => {
@@ -19,7 +19,7 @@ const PopularCities = () => {
           </p>
           <div className="mt-10 space-y-4">
             <div className="flex items-start gap-4 bg-white shadow-sm rounded-xl p-5">
-              <CheckCircle className="mt-1" size={22} />
+              <BsCheck2Circle className="mt-1" size={22} />
               <div>
                 <h4 className="font-semibold text-gray-900">
                   Supports local businesses
@@ -31,7 +31,7 @@ const PopularCities = () => {
             </div>
 
             <div className="flex items-start gap-4 bg-white shadow-sm rounded-xl p-5">
-              <Globe className="mt-1" size={22} />
+              <BsGlobe2 className="mt-1" size={22} />
               <div>
                 <h4 className="font-semibold text-gray-900">
                   Promotes authentic culture
@@ -43,7 +43,7 @@ const PopularCities = () => {
             </div>
 
             <div className="flex items-start gap-4 bg-white shadow-sm rounded-xl p-5">
-              <Wallet className="mt-1" size={22} />
+              <BsWallet2 className="mt-1" size={22} />
               <div>
                 <h4 className="font-semibold text-gray-900">
                   Budget-friendly city guides

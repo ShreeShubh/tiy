@@ -12,7 +12,7 @@ const Footer = () => {
   return (
     <div className="bg-gray-800 text-white mt-auto">
       {/* MAIN GRID */}
-      <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-10 px-6 py-7">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-10 px-6 py-7">
         {/* LOGO + CONTACT */}
         <div className="space-y-4 col-span-2">
           {/* <Image
@@ -65,7 +65,7 @@ const Footer = () => {
 
       {/* SOCIAL + NEWSLETTER */}
       <div className="border-t border-gray-700">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 px-6 py-6">
+        <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 px-6 py-6">
           {/* SOCIAL ICONS */}
           <div className="flex flex-col space-y-4">
             <p className="font-semibold text-white">Follow us</p>
@@ -97,7 +97,7 @@ const Footer = () => {
 
       {/* COPYRIGHT */}
       <div className="border-t border-gray-700">
-        <div className="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center px-6 py-4 text-sm text-gray-200 gap-3">
+        <div className="max-w-6xl mx-auto flex flex-col sm:flex-row justify-between items-center px-6 py-4 text-sm text-gray-200 gap-3">
           <div className="flex gap-6">
             <Link href="/terms" className="hover:text-white">
               Terms and Conditions
