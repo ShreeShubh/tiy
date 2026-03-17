@@ -11,7 +11,7 @@ const Header = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 300) {
+      if (window.scrollY > 100) {
         setIsScrolled(true)
       } else {
         setIsScrolled(false)
@@ -25,7 +25,7 @@ const Header = () => {
   return (
     <nav
       className={`z-50 fixed top-0 left-0 right-0 transition-all duration-300 ${
-        isScrolled ? "bg-vns-primary shadow-lg py-3" : "mt-6"
+        isScrolled ? "bg-[#441206] shadow-lg py-3" : "mt-6"
       }`}
     >
       <div
