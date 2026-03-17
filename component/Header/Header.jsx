@@ -6,6 +6,8 @@ import Button from "../Button/Button"
 import { navMenu } from "@/lib/navMenu"
 import Link from "next/link"
 
+// bg-[#441206]
+
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false)
 
@@ -25,7 +27,7 @@ const Header = () => {
   return (
     <nav
       className={`z-50 fixed top-0 left-0 right-0 transition-all duration-300 ${
-        isScrolled ? "bg-[#441206] shadow-lg py-3" : "mt-6"
+        isScrolled ? "bg-vns-accent shadow-lg py-3" : "mt-6"
       }`}
     >
       <div

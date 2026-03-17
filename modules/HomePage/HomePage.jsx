@@ -6,25 +6,19 @@ import TrustStrip from "../../component/TrustStrip/TrustStrip"
 import ExploreIndia from "../../component/Home/ExploreIndia/ExploreIndia"
 import PopularCities from "../../component/Home/PopularCities/PopularCities"
 import WhyTIY from "../../component/Home/WhyTIY/WhyTIY"
+import FeaturedStates from "../../component/Home/FeaturedStates/FeaturedStates"
+import FeaturedStatesCarousel from "../../component/Home/FeaturedStates/FeaturedStatesCarousel"
 
 const HomePage = () => {
   return (
     <>
-      <Header />
       <HeroBanner />
       <TrustStrip />
       <ExploreIndia />
+      <FeaturedStates />
+      <FeaturedStatesCarousel />
       <PopularCities />
       <WhyTIY />
-      {/* <div className="min-h-screen flex flex-col items-center justify-center gap-5">
-        <h1 className="text-7xl text-vns-primary font-sans">
-          Whereas recognition
-        </h1>
-        <div className="flex gap-3">
-          <Button children="Primary Button" />
-          <Button isPrimary={false} children="Secondary Button" />
-        </div>
-      </div> */}
     </>
   )
 }

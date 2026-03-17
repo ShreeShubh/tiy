@@ -1,5 +1,5 @@
 import React from "react"
-import { exploreIndia } from "../../../lib/data"
+import { exploreIndia } from "@/lib/data"
 import Image from "next/image"
 
 const ExploreIndia = () => {
