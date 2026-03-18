@@ -44,14 +44,14 @@ const TrendingCitiesCarousel = () => {
   }, [emblaApi, onSelect])
 
   return (
-    <div className="w-full bg-cover pt-12">
+    <div className="w-full bg-cover py-12">
       <div className="max-w-6xl mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-10">
-          <h2 className="text-4xl text-vns-primary mb-5 font-pacifico">
+          <h2 className="text-5xl text-vns-primary mb-5 font-pacifico">
             Trending Cities
           </h2>
-          <p className="text-black mb-12">
+          <p className="text-black mb-12 text-lg">
             Explore the most popular destinations in India
           </p>
         </div>

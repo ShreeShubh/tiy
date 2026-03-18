@@ -6,7 +6,7 @@ import TrustStrip from "../../component/TrustStrip/TrustStrip"
 import ExploreIndia from "../../component/Home/ExploreIndia/ExploreIndia"
 import PopularCities from "../../component/Home/PopularCities/PopularCities"
 import WhyTIY from "../../component/Home/WhyTIY/WhyTIY"
-import FeaturedStates from "../../component/Home/FeaturedStates/FeaturedStates"
+import TravelByMood from "../../component/Home/TravelByMood/TravelByMood"
 import FeaturedStatesCarousel from "../../component/Home/FeaturedStates/FeaturedStatesCarousel"
 import TrendingCitiesCarousel from "../../component/Home/TrendingCities/TrendingCitiesCarousel"
 
@@ -22,9 +22,9 @@ const HomePage = () => {
         <TrustStrip />
         <ExploreIndia />
         <TrendingCitiesCarousel />
-        {/* <FeaturedStates /> */}
-        <FeaturedStatesCarousel />
         <PopularCities />
+        <FeaturedStatesCarousel />
+        <TravelByMood />
         <WhyTIY />
       </div>
     </div>

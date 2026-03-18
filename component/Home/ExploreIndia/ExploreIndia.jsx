@@ -6,10 +6,10 @@ const ExploreIndia = () => {
   return (
     <div className="pt-12">
       <div className="max-w-6xl mx-auto w-full text-center">
-        <h2 className="text-4xl text-vns-primary mb-5 font-pacifico">
+        <h2 className="text-5xl text-vns-primary mb-5 font-pacifico">
           Explore India, Your Way
         </h2>
-        <p className="text-black">
+        <p className="text-black text-lg">
           Smart, Safe & Affordable City Guides At Your Finger Tips
         </p>
         <ul className="grid grid-cols-3 gap-5 mt-8">

@@ -48,10 +48,10 @@ const FeaturedStatesCarousel = () => {
       <div className="max-w-6xl mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-10">
-          <h2 className="text-4xl text-vns-primary mb-5 font-pacifico">
+          <h2 className="text-5xl text-vns-primary mb-5 font-pacifico">
             Our Featured States
           </h2>
-          <p className="text-black mb-12">
+          <p className="text-black mb-12 text-lg">
             Smart, Safe & Affordable City Guides At Your Finger Tips
           </p>
         </div>
