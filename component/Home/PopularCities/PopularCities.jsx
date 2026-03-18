@@ -8,15 +8,15 @@ import Button from "../../Button/Button"
 
 const PopularCities = () => {
   return (
-    <div className="py-20 bg-vns-bg/20 backdrop-blur-2xl relative">
+    <div className="py-12 relative">
       {/* <div className="absolute top-0 left-0 w-full h-20 bg-linear-to-b from-white to-transparent"></div> */}
       <div className="max-w-6xl mx-auto px-6 grid lg:grid-cols-2 gap-14 items-center z-10">
         <div>
-          <h2 className="text-5xl font-bold text-gray-900">
+          <h2 className="text-5xl font-bold text-vns-primary mb-7 font-pacifico">
             Popular Cities to Explore
           </h2>
 
-          <p className="text-gray-500 mt-3 text-lg">
+          <p className="text-black text-lg">
             Explore the world's travel with your fingers
           </p>
           <div className="mt-10 space-y-4">
