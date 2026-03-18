@@ -4,7 +4,7 @@ import Image from "next/image"
 
 const ExploreIndia = () => {
   return (
-    <div className="py-12">
+    <div className="pt-12">
       <div className="max-w-6xl mx-auto w-full text-center">
         <h2 className="text-4xl text-vns-primary mb-5 font-pacifico">
           Explore India, Your Way

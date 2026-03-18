@@ -8,6 +8,7 @@ import PopularCities from "../../component/Home/PopularCities/PopularCities"
 import WhyTIY from "../../component/Home/WhyTIY/WhyTIY"
 import FeaturedStates from "../../component/Home/FeaturedStates/FeaturedStates"
 import FeaturedStatesCarousel from "../../component/Home/FeaturedStates/FeaturedStatesCarousel"
+import TrendingCitiesCarousel from "../../component/Home/TrendingCities/TrendingCitiesCarousel"
 
 const HomePage = () => {
   return (
@@ -20,6 +21,7 @@ const HomePage = () => {
         <HeroBanner />
         <TrustStrip />
         <ExploreIndia />
+        <TrendingCitiesCarousel />
         {/* <FeaturedStates /> */}
         <FeaturedStatesCarousel />
         <PopularCities />

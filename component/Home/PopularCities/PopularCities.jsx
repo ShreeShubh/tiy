@@ -7,7 +7,7 @@ import Button from "../../Button/Button"
 const PopularCities = () => {
   return (
     <div className='py-20 bg-[url("/home/popular-cities-bg.jpg")] bg-cover bg-center relative'>
-      <div className="absolute top-0 left-0 w-full h-20 bg-linear-to-b from-white to-transparent"></div>
+      {/* <div className="absolute top-0 left-0 w-full h-20 bg-linear-to-b from-white to-transparent"></div> */}
       <div className="max-w-6xl mx-auto px-6 grid lg:grid-cols-2 gap-14 items-center z-10">
         <div>
           <h2 className="text-4xl font-bold text-gray-900">

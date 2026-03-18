@@ -4,10 +4,10 @@ import React, { useCallback, useEffect, useState } from "react"
 import useEmblaCarousel from "embla-carousel-react"
 import Image from "next/image"
 import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md"
-import { statesData } from "@/lib/data"
+import { citiesData } from "@/lib/data"
 import Button from "../../Button/Button"
 
-const FeaturedStatesCarousel = () => {
+const TrendingCitiesCarousel = () => {
   const [emblaRef, emblaApi] = useEmblaCarousel({
     loop: false,
     align: "start",
@@ -44,15 +44,15 @@ const FeaturedStatesCarousel = () => {
   }, [emblaApi, onSelect])
 
   return (
-    <div className="w-full bg-cover py-12">
+    <div className="w-full bg-cover pt-12">
       <div className="max-w-6xl mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-10">
           <h2 className="text-4xl text-vns-primary mb-5 font-pacifico">
-            Our Featured States
+            Trending Cities
           </h2>
           <p className="text-black mb-12">
-            Smart, Safe & Affordable City Guides At Your Finger Tips
+            Explore the most popular destinations in India
           </p>
         </div>
 
@@ -60,7 +60,7 @@ const FeaturedStatesCarousel = () => {
         <div className="relative">
           <div className="overflow-hidden" ref={emblaRef}>
             <div className="flex gap-5">
-              {statesData.map((item, index) => (
+              {citiesData.map((item, index) => (
                 <div
                   key={index}
                   className="flex-[0_0_280px] md:flex-[0_0_320px] lg:flex-[0_0_350px] min-w-0"
@@ -149,4 +149,4 @@ const FeaturedStatesCarousel = () => {
   )
 }
 
-export default FeaturedStatesCarousel
+export default TrendingCitiesCarousel

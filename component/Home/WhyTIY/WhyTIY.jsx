@@ -17,7 +17,7 @@ const WhyTIY = () => {
           {whyTIY.map((item, i) => (
             <li
               key={i}
-              className="flex items-center shadow-xl py-5 px-7 rounded-2xl gap-5"
+              className="flex items-center shadow-xl py-5 px-7 rounded-2xl gap-5 bg-white/20 backdrop-blur-sm"
             >
               <Image
                 src={item.logo}
