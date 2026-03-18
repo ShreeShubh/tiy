@@ -11,7 +11,7 @@ import {
 
 const Footer = () => {
   return (
-    <div className="bg-gray-800 text-white mt-auto">
+    <div className="bg-vns-primary text-white mt-auto">
       {/* MAIN GRID */}
       <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-10 px-6 py-7">
         {/* LOGO + CONTACT */}

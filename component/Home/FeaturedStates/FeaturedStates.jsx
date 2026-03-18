@@ -41,13 +41,13 @@ const FeaturedStates = () => {
                   {item.state}
                 </h3>
                 <p className="text-white/90 text-sm mb-6">{item.highlights}</p>
-                <Button className="group/btn rounded-full! bg-vns-accent! border-vns-accent! hover:scale-none! hover:bg-vns-primary! hover:border-vns-primary!">
+                <Button className="group/btn rounded-full! bg-[#c08552]! border-[#c08552]! hover:scale-none!">
                   <div className="flex items-center gap-3">
                     Explore {item.state}
                     <span className="bg-white rounded-full flex items-center justify-center transition-transform duration-300 group-hover/btn:translate-x-1">
                       <MdKeyboardArrowRight
                         size={20}
-                        className="text-vns-accent "
+                        className="text-[#c08552] "
                       />
                     </span>
                   </div>

@@ -11,15 +11,21 @@ import FeaturedStatesCarousel from "../../component/Home/FeaturedStates/Featured
 
 const HomePage = () => {
   return (
-    <>
-      <HeroBanner />
-      <TrustStrip />
-      <ExploreIndia />
-      <FeaturedStates />
-      <FeaturedStatesCarousel />
-      <PopularCities />
-      <WhyTIY />
-    </>
+    <div className="relative">
+      {/* Fixed Background */}
+      <div className='fixed inset-0 bg-[url("/home/home-bg.png")] bg-cover bg-center -z-10' />
+
+      {/* Content */}
+      <div className="relative z-10">
+        <HeroBanner />
+        <TrustStrip />
+        <ExploreIndia />
+        {/* <FeaturedStates /> */}
+        <FeaturedStatesCarousel />
+        <PopularCities />
+        <WhyTIY />
+      </div>
+    </div>
   )
 }
 

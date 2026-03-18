@@ -27,7 +27,7 @@ const Header = () => {
   return (
     <nav
       className={`z-50 fixed top-0 left-0 right-0 transition-all duration-300 ${
-        isScrolled ? "bg-vns-accent shadow-lg py-3" : "mt-6"
+        isScrolled ? "bg-vns-primary shadow-lg py-3" : "mt-6"
       }`}
     >
       <div

@@ -5,7 +5,7 @@ import Button from "../Button/Button"
 const HeroBanner = () => {
   return (
     <div className='bg-[url("/home/home-hero.jpeg")] bg-cover bg-center flex pt-32 pb-28 relative'>
-      <div className="bg-black/30 inset-0 absolute"></div>
+      <div className="bg-black/10 inset-0 absolute"></div>
       <div className="max-w-6xl mx-auto w-full z-10">
         <div className="flex flex-col gap-3">
           <p className="text-white text-6xl">

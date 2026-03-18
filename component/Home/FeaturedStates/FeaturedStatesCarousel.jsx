@@ -44,7 +44,7 @@ const FeaturedStatesCarousel = () => {
   }, [emblaApi, onSelect])
 
   return (
-    <div className='w-full bg-[url("/home/featured-states-bg.png")] bg-cover py-20'>
+    <div className="w-full bg-cover py-20">
       <div className="max-w-6xl mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-10">
@@ -76,7 +76,7 @@ const FeaturedStatesCarousel = () => {
                     />
 
                     {/* Gradient Overlay */}
-                    <div className="absolute inset-0 bg-linear-to-t from-black/70 via-black/30 to-transparent" />
+                    {/* <div className="absolute inset-0 bg-linear-to-t from-black/70 via-black/30 to-transparent" /> */}
 
                     {/* Warm Orange Overlay (brand feel) */}
                     <div className="absolute inset-0 bg-vns-primary/40 mix-blend-multiply" />
@@ -134,8 +134,8 @@ const FeaturedStatesCarousel = () => {
                   key={index}
                   className={`h-4 rounded-full transition-all duration-300 ${
                     index === selectedIndex
-                      ? "w-8 bg-vns-primary border-vns-primary"
-                      : "w-4 border-2 border-white bg-transparent"
+                      ? "w-4 bg-vns-primary border-vns-primary"
+                      : "w-4 border-2 border-vns-primary bg-transparent"
                   }`}
                   onClick={() => scrollTo(index)}
                   aria-label={`Go to slide ${index + 1}`}

@@ -4,8 +4,8 @@ import { whyTIY } from "@/lib/data"
 
 const WhyTIY = () => {
   return (
-    <div className='py-20 bg-[url("/home/why-tiy-bg.jpg")] bg-cover bg-center relative'>
-      <div className="absolute top-0 left-0 w-full h-24 bg-linear-to-b from-white to-transparent"></div>
+    <div className="py-20">
+      {/* <div className="absolute top-0 left-0 w-full h-24 bg-linear-to-b from-white to-transparent"></div> */}
       <div className="max-w-6xl mx-auto w-full text-center">
         <h2 className="text-4xl text-vns-primary mb-5 font-pacifico">
           Why Travel It Yourself?
