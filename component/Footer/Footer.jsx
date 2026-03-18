@@ -97,7 +97,7 @@ const Footer = () => {
       </div>
 
       {/* COPYRIGHT */}
-      <div className="border-t border-gray-700">
+      <div className="border-t border-white/30">
         <div className="max-w-6xl mx-auto flex flex-col sm:flex-row justify-between items-center px-6 py-4 text-sm text-gray-200 gap-3">
           <div className="flex gap-6">
             <Link href="/terms" className="hover:text-white">
@@ -111,7 +111,7 @@ const Footer = () => {
             </Link>
           </div>
 
-          <p>© 2025 KaramUniko. All rights reserved.</p>
+          <p>© 2026 Travel It Yourself. All rights reserved.</p>
         </div>
       </div>
     </div>
