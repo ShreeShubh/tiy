@@ -24,8 +24,9 @@ const FAQ = () => {
 
         <ul className="flex flex-col gap-3 mt-8">
           {faqs.map((faq, i) => (
-            <li key={i} className="text-left" onClick={() => toggleFAQ(i)}>
+            <li key={i} className="text-left">
               <div
+                onClick={() => toggleFAQ(i)}
                 className={`flex justify-between items-center cursor-pointer bg-white p-5 shadow-md border border-gray-200 transition-all duration-300 ${
                   activeIndex === i ? "rounded-t-lg" : "rounded-lg"
                 }`}
