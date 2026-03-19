@@ -4,7 +4,7 @@ import { whyTIY } from "@/lib/data"
 
 const WhyTIY = () => {
   return (
-    <div className="pt-12 pb-20">
+    <div className="py-12">
       {/* <div className="absolute top-0 left-0 w-full h-24 bg-linear-to-b from-white to-transparent"></div> */}
       <div className="max-w-6xl mx-auto w-full text-center">
         <h2 className="text-5xl text-vns-primary mb-5 font-pacifico">
