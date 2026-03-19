@@ -12,11 +12,11 @@ const PopularCities = () => {
       {/* <div className="absolute top-0 left-0 w-full h-20 bg-linear-to-b from-white to-transparent"></div> */}
       <div className="max-w-6xl mx-auto px-6 grid lg:grid-cols-2 gap-14 items-center z-10">
         <div>
-          <h2 className="text-5xl font-bold text-vns-primary mb-7 font-pacifico">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl text-vns-primary mb-4 sm:mb-5 font-pacifico">
             Popular Cities to Explore
           </h2>
 
-          <p className="text-black text-lg">
+          <p className="text-black text-base sm:text-lg">
             Explore the world's travel with your fingers
           </p>
           <div className="mt-10 space-y-4">
@@ -59,7 +59,7 @@ const PopularCities = () => {
 
           <Button className="mt-8">View All Cities</Button>
         </div>
-        <div className="absolute bottom-10 right-0 w-[37%]">
+        <div className="hidden md:block absolute bottom-10 right-0 w-[37%]">
           <div className="relative bottom-0 h-105">
             {/* Image 1 */}
             <div className="absolute top-0 left-10 -rotate-6 shadow-xl rounded-xl overflow-hidden">
