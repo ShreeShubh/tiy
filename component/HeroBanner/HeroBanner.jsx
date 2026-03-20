@@ -13,7 +13,7 @@ const HeroBanner = () => {
     }
   }
   return (
-    <div className='flex justify-center items-center bg-[url("/home/home-hero.jpeg")] bg-cover lg:h-screen bg-center pt-24 sm:pt-28 lg:pt-0 pb-20 lg:pb-0 relative'>
+    <div className='flex justify-center items-center bg-[url("/home/home-hero01.jpeg")] bg-cover lg:h-screen bg-center pt-24 sm:pt-28 lg:pt-0 pb-20 lg:pb-0 relative'>
       {/* Overlay */}
       <div className="bg-black/40 inset-0 absolute"></div>
 
