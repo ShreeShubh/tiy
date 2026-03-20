@@ -1,0 +1,5 @@
+export { default as ExploreIndia } from "./ExploreIndia/ExploreIndia"
+export { default as PopularCities } from "./PopularCities/PopularCities"
+export { default as TravelByMood } from "./TravelByMood/TravelByMood"
+export { default as WhyTIY } from "./WhyTIY/WhyTIY"
+export { default as TrendingDestinations } from "./TrendingDestinations/TrendingDestinationsCarousel"

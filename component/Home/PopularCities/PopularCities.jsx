@@ -8,7 +8,7 @@ import Button from "../../Button/Button"
 
 const PopularCities = () => {
   return (
-    <div className="py-12 relative">
+    <div className="pb-12 relative">
       {/* <div className="absolute top-0 left-0 w-full h-20 bg-linear-to-b from-white to-transparent"></div> */}
       <div className="max-w-6xl mx-auto px-6 grid lg:grid-cols-2 gap-14 items-center z-10">
         <div>

@@ -4,7 +4,7 @@ import Image from "next/image"
 
 const ExploreIndia = () => {
   return (
-    <div className="pt-8 sm:pt-10 lg:pt-12">
+    <div id="explore-section" className="pt-8 sm:pt-10 lg:pt-20">
       <div className="max-w-6xl mx-auto w-full text-center px-4 sm:px-6 lg:px-0">
         <h2 className="text-3xl sm:text-4xl lg:text-5xl text-vns-primary mb-4 sm:mb-5 font-pacifico">
           Explore India, Your Way
@@ -28,7 +28,7 @@ const ExploreIndia = () => {
                 className="w-full h-48 sm:h-52 lg:h-auto object-cover rounded-t-3xl"
               />
 
-              <div className="bg-white px-4 sm:px-5 py-6 sm:py-8 rounded-b-3xl space-y-2 sm:space-y-3 text-black">
+              <div className="bg-white flex-1 px-4 sm:px-5 py-6 sm:py-8 rounded-b-3xl space-y-2 sm:space-y-3 text-black">
                 <h3 className="text-lg sm:text-xl font-bold">{item.title}</h3>
 
                 <p className="text-sm sm:text-base">{item.description}</p>

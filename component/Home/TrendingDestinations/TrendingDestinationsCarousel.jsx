@@ -7,7 +7,7 @@ import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md"
 import { citiesData } from "@/lib/data"
 import Button from "../../Button/Button"
 
-const TrendingCitiesCarousel = () => {
+const TrendingDestinationsCarousel = () => {
   const [emblaRef, emblaApi] = useEmblaCarousel({
     loop: false,
     align: "start",
@@ -44,15 +44,15 @@ const TrendingCitiesCarousel = () => {
   }, [emblaApi, onSelect])
 
   return (
-    <div className="w-full bg-cover py-12">
+    <div className="w-full bg-cover py-16">
       <div className="max-w-6xl mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-10">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl text-vns-primary mb-4 sm:mb-5 font-pacifico">
-            Trending Cities
+            Trending Destinations
           </h2>
-          <p className="text-black text-base sm:text-lg">
-            Explore the most popular destinations in India
+          <p className="text-black text-base sm:text-xl">
+            What's on Your Wanderlust list? Pick your Next Adventure
           </p>
         </div>
 
@@ -72,30 +72,27 @@ const TrendingCitiesCarousel = () => {
                       alt={item.state}
                       width={400}
                       height={500}
-                      className="w-full h-105 object-cover transition-transform duration-500 group-hover:scale-110"
+                      className="w-full h-64 sm:h-80 md:h-96 lg:h-105 object-cover transition-transform duration-500 group-hover:scale-110"
                     />
-
-                    {/* Gradient Overlay */}
-                    {/* <div className="absolute inset-0 bg-linear-to-t from-black/70 via-black/30 to-transparent" /> */}
 
                     {/* Warm Orange Overlay (brand feel) */}
                     <div className="absolute inset-0 bg-vns-primary/40 mix-blend-multiply" />
 
                     {/* Content */}
-                    <div className="absolute inset-0 flex flex-col justify-end items-center text-center p-6">
-                      <h3 className="text-3xl font-semibold text-white mb-2 drop-shadow-lg">
+                    <div className="absolute inset-0 flex flex-col justify-end items-start text-center p-4 sm:p-5 md:p-6">
+                      <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold text-white mb-1 sm:mb-2 drop-shadow-lg">
                         {item.state}
                       </h3>
-                      <p className="text-white/90 text-sm mb-6">
+                      <p className="text-white/90 text-xs sm:text-sm mb-4 sm:mb-5 md:mb-6 line-clamp-2 sm:line-clamp-none">
                         {item.highlights}
                       </p>
-                      <Button className="group/btn rounded-full! bg-vns-accent! border-vns-accent! hover:scale-none! hover:bg-vns-primary! hover:border-vns-primary!">
-                        <div className="flex items-center gap-3">
+                      <Button className="group/btn rounded-full! text-vns-primary! bg-white! border-white! hover:scale-none! hover:bg-vns-primary! hover:border-vns-primary! hover:text-white! text-sm sm:text-base">
+                        <div className="flex items-center gap-2 sm:gap-3">
                           Explore {item.state}
                           <span className="bg-white rounded-full flex items-center justify-center transition-transform duration-300 group-hover/btn:translate-x-1">
                             <MdKeyboardArrowRight
-                              size={20}
-                              className="text-vns-accent "
+                              size={16}
+                              className="text-vns-accent sm:w-5 sm:h-5"
                             />
                           </span>
                         </div>
@@ -113,14 +110,14 @@ const TrendingCitiesCarousel = () => {
             <div className="flex gap-2">
               <button
                 onClick={scrollPrev}
-                className="w-10 h-10 cursor-pointer rounded-full bg-amber-700 hover:bg-amber-800 text-white flex items-center justify-center transition-colors"
+                className="w-10 h-10 cursor-pointer rounded-full bg-vns-secondary hover:bg-vns-accent text-white flex items-center justify-center transition-colors"
                 aria-label="Previous slide"
               >
                 <MdKeyboardArrowLeft size={24} />
               </button>
               <button
                 onClick={scrollNext}
-                className="w-10 h-10 cursor-pointer rounded-full bg-amber-700 hover:bg-amber-800 text-white flex items-center justify-center transition-colors"
+                className="w-10 h-10 cursor-pointer rounded-full bg-vns-secondary hover:bg-vns-accent text-white flex items-center justify-center transition-colors"
                 aria-label="Next slide"
               >
                 <MdKeyboardArrowRight size={24} />
@@ -149,4 +146,4 @@ const TrendingCitiesCarousel = () => {
   )
 }
 
-export default TrendingCitiesCarousel
+export default TrendingDestinationsCarousel

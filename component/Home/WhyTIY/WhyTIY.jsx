@@ -25,7 +25,7 @@ const WhyTIY = () => {
                 width={80}
                 height={80}
                 alt={item.title}
-                className="w-14 h-14 sm:w-16 sm:h-16 lg:w-[80px] lg:h-[80px] object-contain shrink-0"
+                className="w-14 h-14 sm:w-16 sm:h-16 lg:w-20 lg:h-20 object-contain shrink-0"
               />
 
               <div className="text-black text-left space-y-1 sm:space-y-2">

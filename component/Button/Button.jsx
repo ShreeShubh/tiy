@@ -2,10 +2,10 @@ import React from "react"
 
 const Button = ({ isPrimary = true, children, className = "" }) => {
   const baseClasses =
-    "px-6 py-2 rounded-xl font-semibold text-lg cursor-pointer hover:scale-98 hover:drop-shadow-lg transition duration-300 tracking-wide"
+    "px-4 sm:px-5 md:px-6 py-1.5 sm:py-2 rounded-xl font-semibold text-sm sm:text-base md:text-lg cursor-pointer transition duration-300 tracking-wide"
   const variantClasses = isPrimary
-    ? "bg-vns-primary text-white border-2 border-vns-primary"
-    : "bg-vns-bg text-vns-secondary border-2 border-vns-secondary"
+    ? "bg-vns-primary text-white border-2 border-vns-primary hover:bg-vns-accent hover:border-vns-accent"
+    : "bg-vns-bg text-vns-primary border-2 border-white hover:bg-vns-accent hover:border-vns-accent hover:text-white"
 
   return (
     <button className={`${baseClasses} ${variantClasses} ${className}`}>

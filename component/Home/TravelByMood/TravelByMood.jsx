@@ -3,7 +3,7 @@ import { mood } from "@/lib/data"
 
 const TravelByMood = () => {
   return (
-    <div className="py-12">
+    <div className="pb-12">
       <div className="max-w-5xl mx-auto w-full text-center px-4 sm:px-6 lg:px-0">
         <h2 className="text-3xl sm:text-4xl lg:text-5xl text-vns-primary mb-4 sm:mb-5 font-pacifico">
           Travel by Mood

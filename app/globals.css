@@ -20,10 +20,10 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --color-vns-primary: #65350f;
-  --color-vns-secondary: #fe6121;
-  --color-vns-accent: #fe723a;
-  --color-vns-bg: #feede6;
+  --color-vns-primary: #3a1e22;
+  --color-vns-secondary: #54363b;
+  --color-vns-accent: #9a7b78;
+  --color-vns-bg: #ddc8cf;
   --font-pacifico: "Pacifico", cursive;
   --font-sans: "PT Sans", sans-serif;
   --animate-underline: underline 0.3s ease forwards;
